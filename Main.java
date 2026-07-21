@@ -5,15 +5,17 @@ import java.awt.*;
 
 public class Main {
     public static void main(String[] args) {
-//        byte x = 1;
-//        byte y = x;
-//        x = 2;
-//        System.out.println(y);
-
-//        Point point1 = new Point(1, 1);
-//        Point point2 = point1;
-//        point1.x = 2;
-//        System.out.println(point2);
-
+        String message = "   Hello World" + "!!";
+        System.out.println(message.endsWith("!!"));
+        System.out.println(message.startsWith("!!"));
+        System.out.println(message.length());
+        System.out.println(message.indexOf("H"));
+        System.out.println(message.indexOf("e"));
+        System.out.println(message.indexOf("sky"));
+        System.out.println(message.replace("!", "*"));
+        System.out.println(message.toLowerCase());
+        System.out.println(message.toUpperCase());
+        System.out.println(message.trim());
+        System.out.println(message);
     }
 }
